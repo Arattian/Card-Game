@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>Blot Club</title>
+    <link rel='stylesheet' href='css/style.css'>
+    <link href='https://fonts.googleapis.com/css?family=Cagliostro' rel='stylesheet'>
+    <link href='https://use.fontawesome.com/releases/v5.0.8/css/all.css' rel='stylesheet'>
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class='avatar'>
+                <img src='img/avatar.jpg' alt='' id='avatar'>
+                <div class='lvl'>0</div>
+            </div>
+            <div class='user-panel'>
+                <div class='user-name'>Adam Smith</div>
+                <div class='exp-bar'></div>
+                <div class='exp'>0/0</div>
+            </div>
+            <div class='chips-panel'>
+                <img src='img/red_chip.svg' alt=''>
+                <div class='chips'>2 500</div>
+                <img src='img/green_chip.svg' alt=''>
+                <div class='chips'>1 000</div>
+                <img src='img/yellow_chip.svg' alt=''>
+                <div class='chips'>60</div>
+            </div>
+            <div class='tool-panel'>
+                <div class='buy'><img src='img/red_chip.svg' alt=''>
+                    <div class='plus'>+</div>
+                </div>
+                <div class='add'>ԱՆՎՃԱՐ ՉԻՊԵՐ</div>
+                <div class='menu' id='menu'>
+                    <div class='line'></div>
+                    <div class='line'></div>
+                    <div class='line'></div>
+                </div>
+            </div>
+        </header>
+        <div id='player-menu'>
+            <div class='avatar'>
+                <img src='img/avatar.jpg' alt=''>
+                <div class='lvl'>0</div>
+            </div>
+            <div id="close"><i class="fas fa-times"></i></div>
+            <div class='user-name'>Adam Smith</div>
+            <div class='person'>id3565524</div>
+            <div class='stat'>
+                <div class='stat-tab'>
+                    <p>Հաղթ. %</p>
+                    <div class='circle'></div>
+                    <p>0%</p>
+                </div>
+                <div class='stat-tab'>
+                    <p>Հաղթ.</p>
+                    <img src='img/crown-yellow.png' alt=''>
+                    <p>0</p>
+                </div>
+                <div class='stat-tab'>
+                    <p>Պարտ.</p>
+                    <img src='img/crown-black.png' alt=''>
+                    <p>0</p>
+                </div>
+            </div>
+            <div class='leave'>
+                    <p>Ելքերի %</p>
+                    <div class='circle'></div>
+                    <p>0%</p>
+            </div>
+            <p class='games'>Խաղեր 0</p>
+        </div>
+        <div id='game-menu'>
+            <div class='menu-item'>Լեզու</div>
+            <div class='menu-item'>Coupon</div>
+            <div class='menu-item'>Shop</div>
+            <label class='label-container'>Երաժշտություն<input type='checkbox'></label>
+            <label class='label-container'>Ձայն<input type='checkbox'></label>
+            <label class='label-container'>Ամբողջ էկրան<input type='checkbox'></label>
+            <label class='label-container'>Անիմացիա<input type='checkbox'></label>
+            <a href='index.html'>
+                <div class='menu-item'>Նախասենյակ</div>
+            </a>
+        </div>
+        <div class='game'>
+            <a href='game.html'>
+                <div class='game-mod'><img src='img/mods/novice.png' alt=''>ՍԿՍՆԱԿՆԵՐ<br><img src='img/red_chip.svg' alt='' class='chip'>
+                    <div class='bet'>ԴԻՐ 300-ՀԱՂԹԻՐ 400</div>
+                </div>
+            </a>
+            <div class='game-mod'><img src='img/mods/middlegame.png' alt='' class='locked'>ՄԵԾ ԽԱՂ<br><img src='img/red_chip.svg' alt='' class='chip'>
+                <div class='bet'>ԴԻՐ 430-ՀԱՂԹԻՐ 600</div>
+                <div class='hidden'>Հասանելի է 20 մակարդակից</div><i class='fas fa-lock'></i></div>
+            <div class='game-mod'><img src='img/mods/biggame.png' alt='' class='locked'>ՎԱՐՊԵՏՆԵՐ<br><img src='img/red_chip.svg' alt='' class='chip'>
+                <div class='bet'>ԴԻՐ 1200-ՀԱՂԹԻՐ 2000</div>
+                <div class='hidden'>Հասանելի է 50 մակարդdակից</div><i class='fas fa-lock'></i></div>
+            <div class='game-mod'><img src='img/mods/bonus.png' alt='' class='locked'>ԲՈՆՈՒՍ ԽԱՂ<br><img src='img/green_chip.svg' alt='' class='chip'>
+                <div class='bet'>ԴԻՐ 200-ՀԱՂԹԻՐ 50</div>
+                <div class='hidden'>Հասանելի է 10 մակարդակից</div><i class='fas fa-lock'></i></div>
+            <div class='game-mod'><img src='img/mods/events.png' alt='' class='locked'>ՄՐՑՈՒՅԹՆԵՐ
+                <div class='hidden'>Հասանելի է 20 մակարդակից</div><i class='fas fa-lock'></i></div>
+        </div>
+    </main>
+    <script src='js/script.js'></script>
+</body>
+
+</html>

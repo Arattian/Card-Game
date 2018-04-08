@@ -1,0 +1,206 @@
+body {
+    overflow-x: hidden;
+}
+
+.game {
+    position: absolute;
+    top: 70px;
+    overflow: hidden;
+    background: url(../img/background.png), radial-gradient(#59231f, #311416 70%);
+}
+
+/*game height: 548px;*/
+
+.table-outer {
+    width: 450px;
+    height: 250px;
+    border: 2px solid #83431F;
+    border-radius: 200px;
+    position: absolute;
+    top: 152px;
+    left: 275px;
+}
+
+.table-main {
+    width: 400px;
+    height: 210px;
+    background: radial-gradient(#188B45, #1F4427 70%);
+    border-radius: 200px;
+    margin: 18px auto;
+    position: relative;
+}
+
+.table-inner {
+    width: 340px;
+    height: 150px;
+    border: 2px solid #D0B98D;
+    border-radius: 200px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.circle {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #D0B98D;
+    border-radius: 50%;
+}
+
+.circle1 {
+    top: -15px;
+    left: 160px;
+    background: url(../img/symbol2.png) no-repeat;
+    background-size: 20px;
+    background-position: 2.5px;
+    background-color: #1F4427;
+}
+
+.circle2 {
+    top: 132.5px;
+    left: 160px;
+    background: url(../img/symbol1.png) no-repeat;
+    background-size: 20px;
+    background-position: 2.5px;
+    background-color: #1F4427;
+}
+
+.circle3 {
+    top: 60px;
+    left: -15px;
+    background: url(../img/symbol4.png) no-repeat;
+    background-size: 20px;
+    background-position: 2.5px;
+    background-color: #1F4427;
+}
+
+.circle4 {
+    top: 60px;
+    left: 321px;
+    background: url(../img/symbol3.png) no-repeat;
+    background-size: 20px;
+    background-position: 2.5px;
+    background-color: #1F4427;
+}
+
+.player {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    float: left;
+    border: 2px solid #EFC89D;
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+
+.current {
+    top: 420px;
+    left: 140px;
+}
+
+.opponent {
+    top: 30px;
+    left: 470px;
+}
+
+.name {
+    background-color: #EFC89D;
+    color: #5E1E14;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    position: absolute;
+    top: 75px;
+    left: -15px;
+}
+
+.player img {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+.player .lvl {
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 35px;
+    color: #5E1E14;
+    font-weight: bold;
+    text-align: center;
+    padding: 6px;
+    left: 50px;
+}
+
+.present {
+    height: 35px;
+    width: 35px;
+    background: url(../img/gift.png) no-repeat;
+    background-size: 20px;
+    background-position: 7px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    color: #5E1E14;
+    font-weight: bold;
+    text-align: center;
+    padding: 6px;
+    left: -15px;
+}
+
+.cards {
+    width: 99px;
+    height: 138px;
+    top: 0px;
+    left: 0px;
+    background: url(../img/cards/back.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 2;
+}
+
+#game>.cards {
+    -webkit-transition: top 0.1s ease, left 0.1s ease, transform 1s ease;
+    -moz-transition: top 0.1s ease, left 0.1s ease, transform 1s ease;
+    transition: top 0.1s ease, left 0.1s ease, transform 1s ease;
+}
+
+.stack1 {
+    top: 208px;
+    left: 300px;
+    position: relative;
+}
+
+.stack2 {
+    top: 208px;
+    left: 600px;
+    position: relative;
+}
+
+.score-board {
+    background-color: #EFC89D;
+    position: absolute;
+    border-radius: 5px;
+    color: #5E1E14;
+    top: 100px;
+    left: 820px;
+    padding: 10px; 
+}
+
+#disable {
+    position: absolute;
+    background-color: rgba(255,255,255, 0);
+    display: none;
+    top: 350px;
+    left: 300px;
+    width: 470px;
+    z-index: 20;
+    height: 250px;
+}
